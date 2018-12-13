@@ -3,6 +3,32 @@
 This section scribes entity structires
 
 ## Activity
+
+> example JSON
+
+```json
+{
+  "id": "ptnn8ywy2",
+  "unread": false,
+  "created_at": "2018-12-13T15:12:08Z",
+  "last_modified": 1544713928,
+  "notification_type": null,
+  "text": null,
+  "note": {"LNK[Note](#note)"}
+}
+```
+
+Represents activity entity.
+
+Field | Default | Description
+--------- | ------- | -----------
+id |  |
+unread |  |
+created_at |  |
+last_modified | |
+notification_type | |
+text | |
+
 ## Capture
 ## Note
 ## Patient
@@ -48,8 +74,8 @@ This section scribes entity structires
   "instructional_medium": null,
   "first_capture": null,
   "last_capture": null,
-  "surveys": [Survey],
-  "proof_surveys": [Proof survey]
+  "surveys": ["LNK[Survey](#survey)"],
+  "proof_surveys": ["LNK[Proof surveys](#proof-survey)"]
 }
 ```
 

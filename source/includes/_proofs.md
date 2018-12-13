@@ -9,9 +9,6 @@ curl "https://web.captureproof.com/api/v1/patients/p0wyf2k12/proofs"
 ```
 
 ```javascript
-const client = require('cp_api_client');
-
-let api = client.authorize('email', 'password');
 let proofs = api.proofs.list('p0wyf2k12');
 ```
 

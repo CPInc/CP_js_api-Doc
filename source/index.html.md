@@ -18,7 +18,7 @@ includes:
   - proofs
   - captures
   - notes
-  - examples
+  # - examples
 
 search: true
 ---

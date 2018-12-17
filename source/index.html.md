@@ -11,8 +11,8 @@ toc_footers:
 
 includes:
   - errors
-  - authentication
   - entities
+  - authentication
   - activities
   - patients
   - proofs

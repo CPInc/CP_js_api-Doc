@@ -10,8 +10,8 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
-  - authentication
   - errors
+  - authentication
   - entities
   - activities
   - patients
@@ -27,7 +27,7 @@ search: true
 
 Some description
 
-# Authentication
+# Authorization
 
 > To authorize, use this code:
 
@@ -48,12 +48,12 @@ let proofs = api.proofs.list('p0wyf2k12');
 
 Capturepoof uses API tokens to allow access to the API.
 
-Kittn expects for the API token to be included in all API requests to the server in a header that looks like the following:
+Captureproof API expects for the API token to be included in all API requests to the server in a header that looks like the following:
 
-`Authorization: <Token>`
+`X-API-Session: <Token>`
 
 <aside class="notice">
-You must replace <code><Token></code> with your personal API token.
+You must replace <code>&lt;Token&gt;</code> with your personal API token.
 </aside>
 
 # Query parameters

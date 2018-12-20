@@ -69,3 +69,7 @@ Parameter | Default | Description
 modifies_since | | Return only entities modified since this timestamp
 limit | | Return only `limit` amount of entities
 offset | | Start quering entitied from `offset`th record.
+
+# Uploading media
+
+Uploading media is happening directly to S3 with credentials provided by corresponding resource api. After uploading api accepts uploadede media key.

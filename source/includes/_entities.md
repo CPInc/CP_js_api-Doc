@@ -32,6 +32,53 @@ text | |
 ## Capture
 ## Note
 ## Patient
+
+> example JSON
+
+```json
+{
+  "id": "5j6np7dw3",
+  "full_name": "Eleazar Hauck",
+  "first_name": "Eleazar",
+  "family_name": "Hauck",
+  "last_name": "Hauck",
+  "email": "patient_3@captureproof.com",
+  "date_of_birth": "1939-06-08",
+  "gender": "f",
+  "created_at": "2018-12-20T08:41:33Z",
+  "mobile_phone_number": "+16645550199",
+  "medical_record_number": null,
+  "must_sign_up": false,
+  "display_name": "Eleazar Hauck",
+  "last_modified": 1545295293,
+  "signed_up": true,
+  "ehr_link": "/ehr/2zjsmFndSTrRdnR4J9rcTpN",
+  "photo_url": "http://test.host/assets/avatar/default-patient-48x48.png"
+}
+```
+
+Represents patient entity.
+
+Field | Default | Description
+--------- | ------- | -----------
+id |  |
+full_name |  |
+first_name |  |
+family_name | |
+last_name | |
+email | |
+date_of_birth | |
+gender | |
+created_at | |
+mobile_phone_number | |
+medical_record_number | |
+must_sign_up | |
+display_name | |
+last_modified | |
+signed_up | |
+ehr_link | |
+photo_url | |
+
 ## Proof
 
 > example JSON

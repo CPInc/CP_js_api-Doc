@@ -10,7 +10,9 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
+  - query_parameters
   - errors
+  - uploading_media
   - entities
   - authentication
   - activities
@@ -25,9 +27,9 @@ search: true
 
 # Introduction
 
-Some description
+API for captureproof
 
-# Authorization
+# How to use token
 
 > To authorize, use this code:
 
@@ -56,20 +58,3 @@ Captureproof API expects for the API token to be included in all API requests to
 You must replace <code>&lt;Token&gt;</code> with your personal API token.
 </aside>
 
-# Query parameters
-
-Query parameters could be sent via url params, request body and json. To send params via JSON please add `Content-Type: application/json` header to a request.
-
-# List query parameters
-
-Common query parameters for lists
-
-Parameter | Default | Description
---------- | ------- | -----------
-modifies_since | | Return only entities modified since this timestamp
-limit | | Return only `limit` amount of entities
-offset | | Start quering entitied from `offset`th record.
-
-# Uploading media
-
-Uploading media is happening directly to S3 with credentials provided by corresponding resource api. After uploading api accepts uploadede media key.

@@ -79,6 +79,110 @@ signed_up | |
 ehr_link | |
 photo_url | |
 
+## Clinician
+
+> example JSON
+
+```json
+{
+    "id": "p0wkd8zkk",
+    "full_name": "Dr Eo6 Office",
+    "first_name": "Dr Eo6",
+    "family_name": "Office",
+    "display_name": "Dr Eo6 Office, TCM",
+    "invite_code": "J6D7JJ",
+    "last_modified": 1591965612,
+    "photo_url": "http://localhost:3000/media/user/p0wkd8zkk/big_thumb/ae69aba2.jpg",
+    "email": "kevin+eo6@captureproof.com",
+    "mobile_phone_number": "+14085181090",
+    "degree": {
+        "id": 22,
+        "name": "Traditional Chinese Medicine"
+    },
+    "specialty": {
+        "id": 2,
+        "name": "Allergy and Immunology"
+    },
+    "office": {
+        "id": "ptv8k82kc",
+        "name": "EO6 Offices",
+        "phone_number": "+14085181090",
+        "street": "190 7th Street",
+        "street2": "",
+        "city": "San Francisco",
+        "state": "California",
+        "zipcode": "94103",
+        "country": "United States"
+    }
+}
+```
+
+Represents protocol entity.
+
+Field | Default | Description
+--------- | ------- | -----------
+id |  |
+full_name |  |
+first_name |  |
+family_name | |
+display_name | |
+invite_code | |
+last_modified | |
+photo_url | |
+email | |
+mobile_phone_number | |
+degree | |
+office | |
+
+## Protocol
+
+> example JSON
+
+```json
+{
+    "id": "5jrh2hmz2",
+    "name": "First Protocol",
+    "description": "Some description here",
+    "created_at": "2015-05-28T17:01:54Z",
+    "organization_id": "5j6npbcv6",
+    "last_modified": 1432832520,
+    "delayed": false,
+    "hide_for_clinician": false,
+    "hide_for_patient": false,
+    "autoprescribe_invite_codes": [],
+    "alert_rules": null,
+    "delay_value": null,
+    "delay_unit": null,
+    "logo_url": "http://localhost:3000/media/protocol/5jrh2hmz2/big_thumb/06829c96-1e23-4cab-8f20-655e944ab5be.png",
+    "creator": {},
+    "last_updater": {},
+    "items": []
+}
+```
+
+Represents protocol entity.
+
+Field | Default | Description
+--------- | ------- | -----------
+id |  |
+name |  |
+description |  |
+created_at | |
+last_name | |
+organization_id | |
+last_modified | |
+delayed | |
+hide_for_clinician | |
+hide_for_patient | |
+medical_record_number | |
+autoprescribe_invite_codes | |
+alert_rules | |
+delay_value | |
+logo_url | |
+creator | |
+last_updater | |
+items | |
+
 ## Proof
 
 > example JSON
@@ -134,6 +238,57 @@ patient_id | required |
 
 
 ## Proof template
+
+> example JSON
+
+```json
+{
+    "id": "5jr8056m3",
+    "name": " org select me",
+    "media_format": "video",
+    "description": "from org",
+    "created_at": "2015-08-14T16:33:37Z",
+    "reminders_start_offset": null,
+    "reminders_intervals": null,
+    "reminders_end_after": null,
+    "reminders_end_after_occurences": null,
+    "share_with_patient_later": false,
+    "reminders_unit": null,
+    "reminders_offset_unit": null,
+    "reminders_end_after_unit": null,
+    "last_modified": 1439570017,
+    "clinician_group_id": "5j6npbcv6",
+    "clinician_group_type": "Organization",
+    "notifications": {
+        "send_email": false,
+        "send_sms": false
+    }
+}
+```
+
+Represents Proof template entity.
+
+Field | Default | Description
+--------- | ------- | -----------
+id |  |
+name |  |
+media_format |  |
+description |  |
+created_at |  |
+reminders_start_offset |  |
+reminders_intervals |  |
+reminders_end_after |  |
+reminders_end_after_occurences |  |
+share_with_patient_later |  |
+reminders_unit |  |
+reminders_offset_unit |  |
+reminders_end_after_unit |  |
+last_modified |  |
+clinician_group_id |  |
+clinician_group_type |  |
+notifications |  |
+
+
 ## Proof survey
 
 > example JSON
@@ -200,3 +355,92 @@ Represents survey entity.
 Field | Default | Description
 --------- | ------- | -----------
 patient_id | required |
+
+## Question
+
+> example JSON
+
+```json
+{
+  "id": "ptvmc87ks",
+  "title": "1",
+  "text": "",
+  "score_group": "",
+  "type": "selection",
+  "url": "/api/v1/organizations/29m53ncjg/questions/ptvmc87ks",
+  "last_modified": 1569954809,
+  "question_view": "checkboxes",
+  "choices": [
+      {
+          "id": "zf9nvjt43",
+          "text": "1",
+          "position": 1,
+          "score": 0,
+          "k": null,
+          "is_base_unit": false,
+          "last_modified": 1569954809,
+          "answered_with": false
+      },
+      {
+          "id": "2dyzph03p",
+          "text": "2",
+          "position": 2,
+          "score": 0,
+          "k": null,
+          "is_base_unit": false,
+          "last_modified": 1569954809,
+          "answered_with": false
+      },
+      {
+          "id": "pgjyth5jk",
+          "text": "3",
+          "position": 3,
+          "score": 0,
+          "k": null,
+          "is_base_unit": false,
+          "last_modified": 1569954809,
+          "answered_with": false
+      }
+  ]
+}
+```
+
+
+## ProtocolRx
+
+> example JSON
+
+```json
+{
+    "id": "gw23p916c",
+    "start_at": "2018-11-21T01:01:59Z",
+    "activated_at": "2018-11-21T01:03:08Z",
+    "notified_at": null,
+    "last_modified": 1542762188,
+    "time_due": null,
+    "activated": true,
+    "completed_at": null,
+    "patient": {},
+    "clinician": {},
+    "protocol": {}
+}
+```
+
+
+
+## Flows
+
+> example JSON
+
+```json
+{
+  "id": "2db5sh7fk",
+  "title": "Test 1",
+  "flow_type": "question",
+  "readonly": false,
+  "question_title": "111",
+  "question_type": "slider",
+  "question_help": "11",
+  "answers": []
+}
+```

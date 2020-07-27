@@ -15,11 +15,20 @@ includes:
   - uploading_media
   - entities
   - authentication
+  - ext_service_hooks
   - activities
   - patients
   - proofs
   - captures
+  - clinicians
+  - protocol_rx
   - notes
+  - proof_template
+  - protocols
+  - organizations
+  - group_membership_requests
+  - question
+  - survey
   # - examples
 
 search: true
@@ -57,4 +66,3 @@ Captureproof API expects for the API token to be included in all API requests to
 <aside class="notice">
 You must replace <code>&lt;Token&gt;</code> with your personal API token.
 </aside>
-

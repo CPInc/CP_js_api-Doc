@@ -37,7 +37,7 @@ Creates a capture for proof.
 
 
 <!-- ######################################################  Create endpoint -->
-## Create
+## Create capture
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/53ede085/proofs/4cd40d7e3/captures"

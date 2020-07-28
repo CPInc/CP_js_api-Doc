@@ -1,7 +1,7 @@
 # Patients
 
 <!-- ######################################################  List endpoint -->
-## List
+## List patients
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients"

@@ -2,7 +2,7 @@
 
 A prescription (Rx) of a protocol by a clinician in an office for a patient. Has a set of media Rxs created for the patient.
 
-## List
+## List protocolRxes
 
 ```shell
 curl --location --request POST 'localhost:3000/api/v1/protocol_rxes/ptv8y0kvq/complete' \
@@ -18,7 +18,7 @@ This endpoint completes protocol_rx
 `POST https://web.captureproof.com/api/v1/protocol_rxes/ptv8y0kvq/complete`
 
 
-## Complete
+## Complete ProtocolRx
 
 
 ```shell

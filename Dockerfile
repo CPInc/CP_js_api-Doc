@@ -4,14 +4,23 @@ MAINTAINER dimanlin
 
 WORKDIR /app
 
-COPY Gemfile /app/Gemfile
-COPY Gemfile.lock /app/Gemfile.lock
-
-RUN apt update
-RUN apt -y install nodejs
-RUN gem install bundle
-RUN bundle install
-
+# COPY Gemfile /app/Gemfile
+# COPY Gemfile.lock /app/Gemfile.lock
 COPY . /app
+# RUN apt update
+RUN gem install bundle && \
+    apt update && \
+    apt -y install nodejs nginx && \
+    bundle install && \
+    bundle exec middleman build
 
-CMD bundle exec middleman server -e production -p 80
+COPY config/default /etc/nginx/sites-available
+
+
+# RUN gem install bundle
+# RUN bundle install
+
+# COPY . /app
+
+# RUN service nginx start
+CMD service nginx start && tail -f /dev/null

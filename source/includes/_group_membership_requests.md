@@ -1,7 +1,7 @@
 # Group membership requests
 
 
-## Count
+## Count group membership requests
 
 Return a count of the number of pending OfficeMembershipRequests for the given office.
 

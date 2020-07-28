@@ -1,7 +1,7 @@
 # Notes
 
 <!-- ######################################################  Create endpoint -->
-## Create
+## Create note
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/53ede085/proofs/4cd40d7e3/notes"

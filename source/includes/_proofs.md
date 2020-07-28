@@ -1,7 +1,7 @@
 # Proofs
 
 <!-- ######################################################  List endpoint -->
-## List
+## List proofs
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/p0wyf2k12/proofs"

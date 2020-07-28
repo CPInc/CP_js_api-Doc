@@ -2,7 +2,7 @@
 
 Created many proofs
 
-## List
+## List ProofTemplates
 
 ```shell
 curl --location --request GET 'localhost:3000/api/v1/protocols/ptnf6dktn/proof_templates' \
@@ -17,7 +17,7 @@ This endpoint return all proof_templates
 `GET https://web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates`
 
 
-## Show
+## Show ProofTemplate
 
 
 ```shell
@@ -62,7 +62,7 @@ This endpoint return proof_template from protocol
 
 
 
-## Delete
+## Delete ProofTemplate
 
 
 ```shell
@@ -79,7 +79,7 @@ This endpoint return delete proof_template from protocol
 `DELETE https://web.captureproof.com/api/v1/protocols/p0wyf2ktn/proof_templates/2dbtpkgx3`
 
 
-## List by organization
+## List ProofTemplates by organization
 
 ```shell
 curl --location --request GET 'localhost:3000/api/v1/organizations/5j6npbcv6/proof_templates' \

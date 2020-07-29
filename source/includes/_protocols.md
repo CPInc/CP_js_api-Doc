@@ -3,7 +3,7 @@
 ## List of protocols
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/protocols/ptnf6dktn/proof_templates' \
+curl --location --request GET 'web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=c6c76858c02267a360085854e0345a77--200'
 ```
@@ -27,7 +27,7 @@ This endpoint return all proof_templates
 ## Show protocol
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/protocols/ptnf6dktn/proof_templates' \
+curl --location --request GET 'web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=c6c76858c02267a360085854e0345a77--200'
 ```
@@ -56,7 +56,7 @@ This endpoint return all proof_templates
     "alert_rules": null,
     "delay_value": null,
     "delay_unit": null,
-    "logo_url": "http://localhost:3000/media/protocol/5j6np7dw3/big_thumb/71b18b42-54bb-439b-98a6-cb07a4e4857d.png",
+    "logo_url": "http://web.captureproof.com/media/protocol/5j6np7dw3/big_thumb/71b18b42-54bb-439b-98a6-cb07a4e4857d.png",
     "creator": {
         "id": "ptnnm5c13",
         "full_name": "Doctor Name",
@@ -65,7 +65,7 @@ This endpoint return all proof_templates
         "display_name": "Doctor Name, PharmD",
         "invite_code": "QPQMZN",
         "last_modified": 1591965866,
-        "photo_url": "http://localhost:3000/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
         "degree": {
             "id": 31,
             "name": "Pharmacist"
@@ -94,7 +94,7 @@ This endpoint return all proof_templates
         "display_name": "Doctor Name, PharmD",
         "invite_code": "QPQMZN",
         "last_modified": 1591965866,
-        "photo_url": "http://localhost:3000/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
         "degree": {
             "id": 31,
             "name": "Pharmacist"
@@ -125,7 +125,7 @@ This endpoint return all proof_templates
 ## Update protocol
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/protocols/5j6np7dw3' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/protocols/5j6np7dw3' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=7601eefc4b3f3bafdffd9387ff5fee20--200' \
 --form 'token=074e5ad3a35a9ae5e56900381edb59b7' \
@@ -156,7 +156,7 @@ This endpoint return all proof_templates
     "alert_rules": null,
     "delay_value": null,
     "delay_unit": null,
-    "logo_url": "http://localhost:3000/media/protocol/5j6np7dw3/big_thumb/71b18b42-54bb-439b-98a6-cb07a4e4857d.png",
+    "logo_url": "http://web.captureproof.com/media/protocol/5j6np7dw3/big_thumb/71b18b42-54bb-439b-98a6-cb07a4e4857d.png",
     "creator": {
         "id": "ptnnm5c13",
         "full_name": "Doctor Name",
@@ -165,7 +165,7 @@ This endpoint return all proof_templates
         "display_name": "Doctor Name, PharmD",
         "invite_code": "QPQMZN",
         "last_modified": 1591965866,
-        "photo_url": "http://localhost:3000/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
         "degree": {
             "id": 31,
             "name": "Pharmacist"
@@ -194,7 +194,7 @@ This endpoint return all proof_templates
         "display_name": "Doctor Name, PharmD",
         "invite_code": "QPQMZN",
         "last_modified": 1591965866,
-        "photo_url": "http://localhost:3000/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/ptnnm5c13/big_thumb/57d80b8c-c75e-4c30-aff8-d0fbc4888a7b.jpg",
         "degree": {
             "id": 31,
             "name": "Pharmacist"
@@ -227,7 +227,7 @@ This endpoint return all proof_templates
 ## Update mrx items
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/protocols/update_mrx_items' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_mrx_items' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=ce7666acd1c96285c940a5930a121a93--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
@@ -252,7 +252,7 @@ id | | Protocol id
 ## Update survey items
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/protocols/update_survey_items' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_survey_items' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=a8220979785eeb0daa948ab385de67e9--404' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
@@ -279,7 +279,7 @@ survey_ids | | Survey ids(Array)
 ## Update flow
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/protocols/update_flow' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_flow' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=1d03872d117bfe28abc37a0965ceda5a--404' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
@@ -306,7 +306,7 @@ flow_id | | Flow id
 ## Delete mrx item
 
 ```shell
-curl --location --request DELETE 'localhost:3000/api/v1/protocols/29m7k2tnc/delete_survey_item/gw23n1ghj' \
+curl --location --request DELETE 'web.captureproof.com/api/v1/protocols/29m7k2tnc/delete_survey_item/gw23n1ghj' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --form 'token=dce049a9d318db638583dd75d154b1ff'
 ```
@@ -321,7 +321,7 @@ This endpoint return 200
 ## List protocols for organization
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/organizations/29m53ncjg/protocols' \
+curl --location --request GET 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=d5df3d2db6680f656020acc4bebd164c--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff'
@@ -347,7 +347,7 @@ This endpoint return protocols
 ## Create new protocol for organization
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/protocols' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=765228cf94483c9a5c964eeb7aab6a65--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
@@ -384,7 +384,7 @@ This endpoint create and return protocol
         "display_name": "Denis1 Provider 1q Jr1., MediSpa LE",
         "invite_code": "BH337U",
         "last_modified": 1594806122,
-        "photo_url": "http://localhost:3000/media/user/4hwnmb85g/big_thumb/a2bbc279-9e1d-4d9e-a1eb-fd3ab4fdc33b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/4hwnmb85g/big_thumb/a2bbc279-9e1d-4d9e-a1eb-fd3ab4fdc33b.jpg",
         "email": "denis+stg2@captureproof.com",
         "mobile_phone_number": "+14159203255",
         "degree": {
@@ -415,7 +415,7 @@ This endpoint create and return protocol
         "display_name": "Denis1 Provider 1q Jr1., MediSpa LE",
         "invite_code": "BH337U",
         "last_modified": 1594806122,
-        "photo_url": "http://localhost:3000/media/user/4hwnmb85g/big_thumb/a2bbc279-9e1d-4d9e-a1eb-fd3ab4fdc33b.jpg",
+        "photo_url": "http://web.captureproof.com/media/user/4hwnmb85g/big_thumb/a2bbc279-9e1d-4d9e-a1eb-fd3ab4fdc33b.jpg",
         "email": "denis+stg2@captureproof.com",
         "mobile_phone_number": "+14159203255",
         "degree": {
@@ -448,7 +448,7 @@ This endpoint create and return protocol
 ## Delete survey item
 
 ```shell
-curl --location --request DELETE 'localhost:3000/api/v1/protocols/p0whw5zds/delete_survey_item/pvmjv39hn' \
+curl --location --request DELETE 'web.captureproof.com/api/v1/protocols/p0whw5zds/delete_survey_item/pvmjv39hn' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=d208adad82774bd6897de1f32a26cc82--404' \
 --form 'token=d7abe39228e07f1eb8b4e75b8710b8a2'
@@ -463,7 +463,7 @@ This endpoint return 200 or 404
 ## List protocols by organization
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/organizations/29m53ncjg/protocols' \
+curl --location --request GET 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=0c3ec0db141be5a6847723846415090a--200' \
 --form 'token=903fc07decff1059951641d41e3045cd'

@@ -29,6 +29,7 @@ includes:
   - group_membership_requests
   - question
   - survey
+  - flow
   # - examples
 
 search: true

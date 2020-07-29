@@ -3,7 +3,7 @@
 ## Destroy survey for organization
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/organizations/29m53ncjg/surveys/gw2346wbj' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/organizations/29m53ncjg/surveys/gw2346wbj' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=2a24089a6c916ce9f86ad02162bde684--200' \
 --form 'token=903fc07decff1059951641d41e3045cd' \
@@ -20,7 +20,7 @@ This endpoint return code 200
 ## Update survey for organization
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/organizations/29m53ncjg/surveys/gw2346wbj' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/organizations/29m53ncjg/surveys/gw2346wbj' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=2a24089a6c916ce9f86ad02162bde684--200' \
 --form 'token=903fc07decff1059951641d41e3045cd' \
@@ -54,7 +54,7 @@ This endpoint return survey
 ## Create survey for organization
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/surveys' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/surveys' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=79c4ce21d2ef92d78fcb9ea891410543--200' \
 --form 'token=903fc07decff1059951641d41e3045cd' \
@@ -88,7 +88,7 @@ This endpoint return survey
 ## List surveys for organization
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/organizations/29m53ncjg/surveys' \
+curl --location --request GET 'web.captureproof.com/api/v1/organizations/29m53ncjg/surveys' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=531ed3f6ca0f49b270aad180fee14073--200' \
 --form 'token=903fc07decff1059951641d41e3045cd'
@@ -209,11 +209,42 @@ This endpoint return list surveys
 }
 ```
 
+## Show survey for organization
+
+```shell
+curl --location --request GET 'web.captureproof.com/api/v1/organizations/p0w48wb5c/surveys/29m51th3c' \
+--header 'Cookie: _mkra_ctxt=f91450a870ec1a58b34d8f1fb4b4a695--200' \
+--form 'token=3c46c0f6a39d02f990c65794c5b076e7'
+```
+
+This endpoint return survey
+
+### HTTP Request
+
+`GET https://web.captureproof.com/api/v1/organizations/p0w48wb5c/surveys/29m51th3c`
+
+```json
+{
+    "id": "29m51th3c",
+    "title": "7/29 survey test ",
+    "description": "Answer all ",
+    "clinician_answers_visible": false,
+    "use_scoring": false,
+    "use_score_groups": false,
+    "last_modified": 1504289251,
+    "clinician_group_id": "p0w48wb5c",
+    "clinician_group_type": "Organization",
+    "url": "/api/v1/organizations/p0w48wb5c/surveys/29m51th3c",
+    "questions": ["LNK[Question entities](#question)"],
+    "taken": true
+}
+```
+
 
 ## Copy survey for organization
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/surveys/ptnx3mysf/copy' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/surveys/ptnx3mysf/copy' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=7dba2627ce8bdb9564ea00d92c63e1d3--200' \
 --form 'token=903fc07decff1059951641d41e3045cd'

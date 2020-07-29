@@ -26,7 +26,7 @@ This endpoint return all questions for organization
 ## Create question for organization
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/organizations/29m53ncjg/questions' \
+curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/questions' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=09c58de99b30f5e2caba58fa952011e6--200' \
 --form 'token=903fc07decff1059951641d41e3045cd' \
@@ -60,7 +60,7 @@ This endpoint return question
 ## Update question for organization
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/organizations/29m53ncjg/questions/ptvmc87ks' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/organizations/29m53ncjg/questions/ptvmc87ks' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=a7a85dffb3adc262d4fe47ff6cc9026c--200' \
 --form 'token=903fc07decff1059951641d41e3045cd' \

@@ -12,7 +12,7 @@ This endpoint create proof, saved metadata, share with clinician, create capture
 ### HTTP Request
 
 ```shell
-curl --location --request POST 'localhost:3000/api/v1/ext_service_hooks/curbside.json' \
+curl --location --request POST 'web.captureproof.com/api/v1/ext_service_hooks/curbside.json' \
 --header 'Token: 77ea508b2aaf36a1046f9450bc8d067cc3ac4de9af220c458e00060746f4ca5630dda5c71e4c0d44a17c85021a10cce0b10e5c21ad3e8b16ecc35be2584ccece' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: _mkra_ctxt=fa3ec3796272e7928e1a2d49e6734ad0--200' \

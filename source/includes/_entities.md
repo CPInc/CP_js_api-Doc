@@ -29,6 +29,25 @@ last_modified | |
 notification_type | |
 text | |
 
+## Organization
+
+> example JSON
+
+```json
+{
+    "id": "2db5sttwj",
+    "name": "Denis Provider 1",
+    "phone_number": "+17274956103",
+    "street": "123 First str",
+    "street2": "",
+    "city": "St Petersburg",
+    "state": "Florida",
+    "zipcode": "12312",
+    "country": "US",
+    "logo_url": "....."
+}
+```
+
 ## Capture
 ## Note
 ## Patient
@@ -92,7 +111,7 @@ photo_url | |
     "display_name": "Dr Eo6 Office, TCM",
     "invite_code": "J6D7JJ",
     "last_modified": 1591965612,
-    "photo_url": "http://localhost:3000/media/user/p0wkd8zkk/big_thumb/ae69aba2.jpg",
+    "photo_url": "http://web.captureproof.com/media/user/p0wkd8zkk/big_thumb/ae69aba2.jpg",
     "email": "kevin+eo6@captureproof.com",
     "mobile_phone_number": "+14085181090",
     "degree": {
@@ -153,7 +172,7 @@ office | |
     "alert_rules": null,
     "delay_value": null,
     "delay_unit": null,
-    "logo_url": "http://localhost:3000/media/protocol/5jrh2hmz2/big_thumb/06829c96-1e23-4cab-8f20-655e944ab5be.png",
+    "logo_url": "http://web.captureproof.com/media/protocol/5jrh2hmz2/big_thumb/06829c96-1e23-4cab-8f20-655e944ab5be.png",
     "creator": {},
     "last_updater": {},
     "items": []
@@ -428,7 +447,7 @@ patient_id | required |
 
 
 
-## Flows
+## Flow
 
 > example JSON
 

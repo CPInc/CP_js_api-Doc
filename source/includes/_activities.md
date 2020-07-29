@@ -32,7 +32,7 @@ This endpoint retrieves activities for currently logged user.
 Return count activities for user
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/activity_notifications/count' \
+curl --location --request GET 'web.captureproof.com/api/v1/activity_notifications/count' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=f41b6a015d3c9605755cb91251ac3aa7--200' \
 --data-raw ''
@@ -53,7 +53,7 @@ curl --location --request GET 'localhost:3000/api/v1/activity_notifications/coun
 Can update activity to viewed or not viewed
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/activity_notifications/2510wq8sh' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/activity_notifications/2510wq8sh' \
 --header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --header 'Cookie: _mkra_ctxt=13c1f16e527b1e42734eddaba80677fb--200' \
 --form 'token=90f73e5e5b6badc37cea39a7f56a18ae'
@@ -80,4 +80,4 @@ curl --location --request PATCH 'localhost:3000/api/v1/activity_notifications/25
 
 ### HTTP Request
 
-`GET localhost:3000/api/v1/activity_notifications/2510wq8sh`
+`GET web.captureproof.com/api/v1/activity_notifications/2510wq8sh`

@@ -1,6 +1,29 @@
 # Captures
 
-<!-- ############################################## Media upload credentials -->
+## List captures
+
+```shell
+curl --location --request GET 'localhost:3000/api/v1/patients/<patient_id>/proofs/<proof_id>/captures' \
+--header 'Cookie: _mkra_ctxt=fc6c5098206008d98b4150ce1f82bdaf--200' \
+--form 'token=903fc07decff1059951641d41e3045cd'
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+    "captures": ["LNK[Capture entities](#capture)"]
+}
+```
+
+Creates a capture for proof.
+
+### HTTP Request
+
+`POST https://web.captureproof.com/api/v1/patients/<patient_id>/proofs/<proof_id>/captures`
+
+
+
 ## Media upload credentials
 
 ```shell
@@ -36,7 +59,6 @@ Creates a capture for proof.
 
 
 
-<!-- ######################################################  Create endpoint -->
 ## Create capture
 
 ```shell
@@ -79,3 +101,33 @@ description | String | | Description
 upload_s3_key | String | | Key if S3 uploaded file
 library_item_id | String | | ID of hippa library item, if capture was created with it
 metadata | Object | | Capture metadata
+
+## Media processe
+
+```shell
+curl --location --request GET 'localhost:3000/api/v1/patients/5v2xz94z8/proofs/ptn7x68m3/captures/ptnn8ywy2/is_media_processed' \
+--header 'Cookie: _mkra_ctxt=47f1dbae93ae79e0c6ae5efc7afeec0c--200' \
+--form 'token=cd7a005314c54a698beda40233600428'
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+  "captures": ["LNK[Capture entities](#capture)"]
+}
+```
+
+> If capture not processed
+
+```json
+{
+  "media_processed": false
+}
+```
+
+Creates a capture for proof.
+
+### HTTP Request
+
+`POST https://web.captureproof.com/api/v1/patients/<patient_id>/proofs/<proof_id>/captures/<capture_id>/is_media_processed`

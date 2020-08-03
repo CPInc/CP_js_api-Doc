@@ -8,6 +8,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
 includes:
   - query_parameters
   - errors
+  - profile
   - uploading_media
   - entities
   - authentication

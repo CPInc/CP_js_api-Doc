@@ -70,7 +70,7 @@ This endpoint return patient.
 
 ### HTTP Request
 
-`PATCH https://web.captureproof.com/api/v1/patients`
+`PATCH https://web.captureproof.com/api/v1/patients/2dy0fyyh2`
 
 
 ## Show patient
@@ -109,7 +109,7 @@ This endpoint return patient.
 
 ### HTTP Request
 
-`GET https://web.captureproof.com/api/v1/patients`
+`GET https://web.captureproof.com/api/v1/patients/2dy0fyyh2`
 
 
 ## List patients

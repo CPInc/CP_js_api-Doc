@@ -30,7 +30,7 @@ This endpoint return code 200
 ## All clinicians
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/clinicians/all_clinicians' \
+curl --location --request GET 'web.captureproof.com/api/v1/clinicians/all_clinicians' \
 --header 'Cookie: _mkra_ctxt=793e48488779b2583156d0df5982140e--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```
@@ -51,7 +51,7 @@ curl --location --request GET 'localhost:3000/api/v1/clinicians/all_clinicians' 
 ## Care team
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/clinicians/care_team' \
+curl --location --request GET 'web.captureproof.com/api/v1/clinicians/care_team' \
 --header 'Cookie: _mkra_ctxt=8d09194d718c93ed0dfee89fec3be651--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```

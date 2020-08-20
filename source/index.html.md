@@ -27,6 +27,7 @@ includes:
   - question
   - survey
   - flow
+  - report
   # - examples
 
 search: true

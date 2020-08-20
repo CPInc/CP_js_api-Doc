@@ -3,7 +3,7 @@
 ## List of organizations
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/organizations' \
+curl --location --request GET 'web.captureproof.com/api/v1/organizations' \
 --header 'Cookie: _mkra_ctxt=42570fb89481ad09b95fdcb7bb2938de--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```
@@ -27,7 +27,7 @@ This endpoint return all organizations for current user
 ## Show of organization
 
 ```shell
-curl --location --request GET 'localhost:3000/api/v1/organizations/2db5sttwj' \
+curl --location --request GET 'web.captureproof.com/api/v1/organizations/2db5sttwj' \
 --header 'Cookie: _mkra_ctxt=50d7d8ffe86b341f4f9c139098e44338--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```
@@ -60,7 +60,7 @@ This endpoint return organization
 ## Update of organization
 
 ```shell
-curl --location --request PATCH 'localhost:3000/api/v1/organizations/2db5sttwj' \
+curl --location --request PATCH 'web.captureproof.com/api/v1/organizations/2db5sttwj' \
 --header 'Cookie: _mkra_ctxt=dca11abe3d497b511e56c345be8cc93d--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7' \
 --form 'organization[phone_number]=+79290188327'

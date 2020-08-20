@@ -56,23 +56,35 @@ text | |
 
 ```json
 {
-  "id": "5j6np7dw3",
-  "full_name": "Eleazar Hauck",
-  "first_name": "Eleazar",
-  "family_name": "Hauck",
-  "last_name": "Hauck",
-  "email": "patient_3@captureproof.com",
-  "date_of_birth": "1939-06-08",
-  "gender": "f",
-  "created_at": "2018-12-20T08:41:33Z",
-  "mobile_phone_number": "+16645550199",
+
+  "id": "gwphz358g",
+  "full_name": "Fullname Some text",
+  "first_name": "Fullname",
+  "family_name": "Some text",
+  "last_name": "Some text",
+  "email": "sd98f7s9d@assdfsdasddasdfsdf.com",
+  "date_of_birth": "1986-02-02",
+  "gender": "m",
+  "created_at": "2020-08-17T21:59:10Z",
+  "mobile_phone_number": "+79290188327",
   "medical_record_number": null,
   "must_sign_up": false,
-  "display_name": "Eleazar Hauck",
-  "last_modified": 1545295293,
-  "signed_up": true,
-  "ehr_link": "/ehr/2zjsmFndSTrRdnR4J9rcTpN",
-  "photo_url": "http://test.host/assets/avatar/default-patient-48x48.png"
+  "readmission_high": "10.0",
+  "readmission_sepsis_low": "0.0",
+  "readmission_pneumonia_low": "0.0",
+  "readmission_low": "0.0",
+  "treatment_plan": "Some text",
+  "medication": "Some text",
+  "medication_prophylaxis": "Some text",
+  "allergies": "Some text",
+  "schedule_follow_up_appointments": "Some text",
+  "current_diagnosis": "Some text",
+  "historical_diagnosis": "Some text",
+  "display_name": "Fullname Some text",
+  "last_modified": 1597701550,
+  "signed_up": false,
+  "ehr_link": "/ehr/34Z4WbD0kLPlLxTcWQJDsW3",
+  "photo_url": "http://localhost:3000/assets/avatar/default-patient-48x48.png"
 }
 ```
 

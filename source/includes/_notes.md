@@ -5,7 +5,6 @@
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/53ede085/proofs/4cd40d7e3/notes"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
   -X POST
   -d "{New note object}"
 ```

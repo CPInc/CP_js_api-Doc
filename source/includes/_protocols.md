@@ -4,8 +4,6 @@
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=c6c76858c02267a360085854e0345a77--200'
 ```
 
 This endpoint return all proof_templates
@@ -28,8 +26,6 @@ This endpoint return all proof_templates
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=c6c76858c02267a360085854e0345a77--200'
 ```
 
 This endpoint return all proof_templates
@@ -126,8 +122,6 @@ This endpoint return all proof_templates
 
 ```shell
 curl --location --request PATCH 'web.captureproof.com/api/v1/protocols/5j6np7dw3' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=7601eefc4b3f3bafdffd9387ff5fee20--200' \
 --form 'token=074e5ad3a35a9ae5e56900381edb59b7' \
 --form 'protocol[name]=new name'
 ```
@@ -228,8 +222,6 @@ This endpoint return all proof_templates
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_mrx_items' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=ce7666acd1c96285c940a5930a121a93--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
 --form 'id=ptvmrgq3k'
 ```
@@ -253,8 +245,6 @@ id | | Protocol id
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_survey_items' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=a8220979785eeb0daa948ab385de67e9--404' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
 --form 'id=ptvmrgq3k' \
 --form 'survey_ids[]=5vz30fd2f'
@@ -280,8 +270,6 @@ survey_ids | | Survey ids(Array)
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols/update_flow' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=1d03872d117bfe28abc37a0965ceda5a--404' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
 --form 'id=ptvmrgq3k' \
 --form 'flow_id=zf1862gtn'
@@ -307,7 +295,6 @@ flow_id | | Flow id
 
 ```shell
 curl --location --request DELETE 'web.captureproof.com/api/v1/protocols/29m7k2tnc/delete_survey_item/gw23n1ghj' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
 --form 'token=dce049a9d318db638583dd75d154b1ff'
 ```
 
@@ -322,8 +309,6 @@ This endpoint return 200
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=d5df3d2db6680f656020acc4bebd164c--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff'
 ```
 
@@ -348,8 +333,6 @@ This endpoint return protocols
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=765228cf94483c9a5c964eeb7aab6a65--200' \
 --form 'token=dce049a9d318db638583dd75d154b1ff' \
 --form 'protocol[name]=Somenasd' \
 --form 'protocol[description]=zf1862gtn' \
@@ -449,8 +432,6 @@ This endpoint create and return protocol
 
 ```shell
 curl --location --request DELETE 'web.captureproof.com/api/v1/protocols/p0whw5zds/delete_survey_item/pvmjv39hn' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=d208adad82774bd6897de1f32a26cc82--404' \
 --form 'token=d7abe39228e07f1eb8b4e75b8710b8a2'
 ```
 
@@ -464,8 +445,6 @@ This endpoint return 200 or 404
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/organizations/29m53ncjg/protocols' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=0c3ec0db141be5a6847723846415090a--200' \
 --form 'token=903fc07decff1059951641d41e3045cd'
 ```
 

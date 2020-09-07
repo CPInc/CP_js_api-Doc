@@ -44,7 +44,6 @@ API for captureproof
 ```shell
 # With shell, you can just pass the correct header with each request
 curl "https://web.captureproof.com/api/v1/..."
-  -H "X-API-Session: <Token>"
 ```
 
 ```javascript

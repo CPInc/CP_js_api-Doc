@@ -5,7 +5,6 @@
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/p0wyf2k12/proofs"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
 ```
 
 ```javascript
@@ -45,7 +44,6 @@ search |  | Return proofs filtered by name
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/p0wyf2k12/proofs/5jrh2hmz2"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
 ```
 
 ```javascript
@@ -85,7 +83,6 @@ include |  | captures, notes, survey, proof_surveys | Comma separeted list of re
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/p0wyf2k12/proofs"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
   -X POST
   -d "{New proof object}"
 ```

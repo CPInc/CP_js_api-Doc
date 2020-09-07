@@ -5,7 +5,6 @@
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/flows/2db5sh7fk' \
---header 'Cookie: _mkra_ctxt=43becabeb0f6681cc0698e670fae0dd9--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```
 
@@ -27,7 +26,6 @@ This endpoint return flow
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/organizations/p0w48wb5c/flows' \
---header 'Cookie: _mkra_ctxt=9e7d315624e73836c5c0382e3c6807d6--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7'
 ```
 
@@ -49,7 +47,6 @@ This endpoint return all flows for organization
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/organizations/p0w48wb5c/flows' \
---header 'Cookie: _mkra_ctxt=9dae67f08f92448ed5b33c954eebac49--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7' \
 --form 'flow[title]=root0000' \
 --form 'flow[flow_type]=question' \
@@ -84,7 +81,6 @@ This endpoint return flow
 
 ```shell
 curl --location --request PATCH 'web.captureproof.com/api/v1/organizations/p0w48wb5c/flows/2dby87cm2' \
---header 'Cookie: _mkra_ctxt=ff0dc5567430b8e31412cfc6353ae22b--200' \
 --form 'token=3c46c0f6a39d02f990c65794c5b076e7' \
 --form 'flow[title]=newtitle' \
 --form 'flow[flow_type]=question' \

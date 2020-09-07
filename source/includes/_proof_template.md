@@ -6,8 +6,6 @@ Created many proofs
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/protocols/ptnf6dktn/proof_templates' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=c6c76858c02267a360085854e0345a77--200'
 ```
 
 This endpoint return all proof_templates
@@ -22,8 +20,6 @@ This endpoint return all proof_templates
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/protocols/p0wyf2ktn/proof_templates/2dbtpkgx3' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=8d77a797fea78f7a96d7d7be00f8d1f3--200' \
 --form 'token=074e5ad3a35a9ae5e56900381edb59b7'
 ```
 
@@ -67,8 +63,6 @@ This endpoint return proof_template from protocol
 
 ```shell
 curl --location --request DELETE 'web.captureproof.com/api/v1/protocols/p0wyf2ktn/proof_templates/2dbtpkgx3' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=3612a968ce4c64d0dc339b8f1facc9f3--500' \
 --form 'token=074e5ad3a35a9ae5e56900381edb59b7'
 ```
 
@@ -83,8 +77,6 @@ This endpoint return delete proof_template from protocol
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/organizations/5j6npbcv6/proof_templates' \
---header 'X-API-Session: 90f73e5e5b6badc37cea39a7f56a18ae' \
---header 'Cookie: _mkra_ctxt=ff13b0a559156893501ea2dc69c7b52b--200' \
 --form 'token=a50a1ed7067e9a8e7d5459f371795e42'
 ```
 

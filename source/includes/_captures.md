@@ -4,7 +4,6 @@
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/patients/<patient_id>/proofs/<proof_id>/captures' \
---header 'Cookie: _mkra_ctxt=fc6c5098206008d98b4150ce1f82bdaf--200' \
 --form 'token=903fc07decff1059951641d41e3045cd'
 ```
 
@@ -20,7 +19,7 @@ Creates a capture for proof.
 
 ### HTTP Request
 
-`POST https://web.captureproof.com/api/v1/patients/<patient_id>/proofs/<proof_id>/captures`
+`GET https://web.captureproof.com/api/v1/patients/<patient_id>/proofs/<proof_id>/captures`
 
 
 
@@ -28,7 +27,6 @@ Creates a capture for proof.
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/53ede085/proofs/4cd40d7e3/captures/new"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
 ```
 
 ```javascript
@@ -63,7 +61,6 @@ Creates a capture for proof.
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients/53ede085/proofs/4cd40d7e3/captures"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
   -X POST
   -d "{New capture object}"
 ```
@@ -106,7 +103,6 @@ metadata | Object | | Capture metadata
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/patients/5v2xz94z8/proofs/ptn7x68m3/captures/ptnn8ywy2/is_media_processed' \
---header 'Cookie: _mkra_ctxt=47f1dbae93ae79e0c6ae5efc7afeec0c--200' \
 --form 'token=cd7a005314c54a698beda40233600428'
 ```
 

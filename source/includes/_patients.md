@@ -4,7 +4,6 @@
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/patients' \
---header 'Cookie: _mkra_ctxt=08f6da52755ab7d033ca7983f59642c0--200' \
 --form 'token=ab693a6636e05378da53a129c3ad2725' \
 --form 'email=sdd@fsdddfddddffdy.com' \
 --form 'password=captureproof' \
@@ -54,7 +53,6 @@ readmission_low    | nil | 0.0-100.0
 
 ```shell
 curl --location --request PATCH 'web.captureproof.com/api/v1/patients/2dy0fyyh2' \
---header 'Cookie: _mkra_ctxt=a9c003e216566727cb54ad57ec711d07--200' \
 --form 'token=dfab91ac54cdd9ffc979bc970561d5b4' \
 --form 'first_name=Fullname' \
 --form 'family_name=FamilyName'
@@ -77,7 +75,6 @@ This endpoint return patient.
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/patients/2dy0fyyh2' \
---header 'Cookie: _mkra_ctxt=413b1b6f592037286df4cf0d2949ccb4--200' \
 --form 'token=dfab91ac54cdd9ffc979bc970561d5b4'
 ```
 
@@ -116,7 +113,6 @@ This endpoint return patient.
 
 ```shell
 curl "https://web.captureproof.com/api/v1/patients"
-  -H "X-API-Session: f65408f32e2aa94cd40d7e3153ede085"
 ```
 
 ```javascript
@@ -148,7 +144,6 @@ search |  | Return patients filtered by name or mrn
 
 ```shell
 curl --location --request POST 'web.captureproof.com/api/v1/signups/patient_confirmation' \
---header 'Cookie: _mkra_ctxt=a24ab4de4eefa5acf48235d7a347ab2a--200' \
 --form 'email=example@captureproof.ru' \
 --form 'app_id=captureproof' \
 --form 'confirmation_token=9bdXpjuAC2B2kQgLyr5H'

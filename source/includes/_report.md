@@ -5,7 +5,6 @@
 
 ```shell
 curl --location --request GET 'web.captureproof.com/api/v1/organizations/p0w48wb5c/reports/surveys' \
---header 'Cookie: _mkra_ctxt=1c1508bcfa44a67a8a27bad226c55cc1--200' \
 --form 'token=ab693a6636e05378da53a129c3ad2725'
 ```
 
@@ -27,7 +26,6 @@ This endpoint return surveys which have answers.
 
 ```shell
 curl --location --request GET 'localhost:3000/api/v1/organizations/p0w48wb5c/reports/29m53tykf/survey' \
---header 'Cookie: _mkra_ctxt=bbf4440dddbcb7c959be3b1d3fdaaf1f--200' \
 --form 'token=ab693a6636e05378da53a129c3ad2725'
 ```
 
